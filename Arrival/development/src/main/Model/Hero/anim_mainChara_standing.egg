@@ -1,0 +1,202 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -a chan -o anim_mainChara_standing.egg anim_mainChara_standing.mb"
+}
+<Table> {
+  <Bundle> anim_mainChara_standing {
+    <Table> "<skeleton>" {
+      <Table> group {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> pasted__polySurface79 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> h { <V> { -90 } }
+          }
+          <Table> pasted__polySurface182 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> r {
+                <V> {
+                  90 -0
+                }
+              }
+              <S$Anim> x {
+                <V> {
+                  -1.38753 -0.243455
+                }
+              }
+              <S$Anim> y {
+                <V> {
+                  1.2093 0.0652337
+                }
+              }
+            }
+          }
+          <Table> pasted__polySurface210 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> r {
+                <V> {
+                  -20 -0
+                }
+              }
+              <S$Anim> x {
+                <V> {
+                  0.810568 0
+                }
+              }
+              <S$Anim> y {
+                <V> {
+                  0.309662 0
+                }
+              }
+            }
+          }
+        }
+        <Table> pasted__polySurface160 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+          }
+          <Table> pasted__polySurface275 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> y { <V> { 0.16 } }
+            }
+          }
+          <Table> pasted__polySurface243 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> y { <V> { 0.16 } }
+            }
+          }
+        }
+        <Table> pasted__polySurface267 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> p { <V> { 30 } }
+            <S$Anim> y { <V> { 0.21851 } }
+            <S$Anim> z { <V> { -0.815491 } }
+          }
+        }
+        <Table> pasted__polySurface257 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> p {
+              <V> {
+                90 -0
+              }
+            }
+            <S$Anim> y {
+              <V> {
+                1.2093 0.0652337
+              }
+            }
+            <S$Anim> z {
+              <V> {
+                -1.38753 -0.243455
+              }
+            }
+          }
+        }
+        <Table> pasted__polySurface270 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> p {
+              <V> {
+                -60 -0
+              }
+            }
+            <S$Anim> y {
+              <V> {
+                0.817193 0
+              }
+            }
+            <S$Anim> z {
+              <V> {
+                1.41542 0
+              }
+            }
+          }
+        }
+        <Table> pasted__polySurface282 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> p {
+              <V> {
+                -20 -0
+              }
+            }
+            <S$Anim> y {
+              <V> {
+                0.309662 0
+              }
+            }
+            <S$Anim> z {
+              <V> {
+                0.810568 0
+              }
+            }
+          }
+        }
+        <Table> pasted__polySurface287 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> p {
+              <V> {
+                -20 -0
+              }
+            }
+            <S$Anim> y {
+              <V> {
+                0.256157 0.16
+              }
+            }
+            <S$Anim> z {
+              <V> {
+                0.660695 3.46945e-017
+              }
+            }
+          }
+        }
+        <Table> pasted__polySurface289 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> p {
+              <V> {
+                -20 -0
+              }
+            }
+            <S$Anim> y {
+              <V> {
+                0.257727 0.16
+              }
+            }
+            <S$Anim> z {
+              <V> {
+                0.660584 -1.38778e-017
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}
