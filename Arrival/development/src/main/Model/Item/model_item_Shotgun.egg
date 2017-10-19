@@ -1,0 +1,269 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2011 -a both -o model_item_Shotgun.egg shot.mb"
+}
+<Texture> phong7SG {
+  "Model/picture/QQ20170703125908.png"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Transform> {
+    <Matrix3> {
+      4 0 0
+      0 4 0
+      0.5 0 1
+    }
+  }
+}
+<Group> shot {
+  <Dart> { 1 }
+  <Group> groundPlane_transform {
+  }
+  <Group> pPlane1 {
+    <Group> transform6 {
+      <Scalar> visibility { hidden }
+    }
+  }
+  <Group> pPlane2 {
+    <Group> transform5 {
+      <Scalar> visibility { hidden }
+    }
+  }
+  <Group> pPlane3 {
+    <Group> transform4 {
+      <Scalar> visibility { hidden }
+    }
+  }
+  <Group> pPlane4 {
+    <Group> transform3 {
+      <Scalar> visibility { hidden }
+    }
+  }
+  <Group> pPlane5 {
+    <Group> transform2 {
+      <Scalar> visibility { hidden }
+    }
+  }
+  <Group> pPlane6 {
+    <Group> transform1 {
+      <Scalar> visibility { hidden }
+    }
+  }
+  <Joint> pCube2 {
+    <Transform> {
+      <Matrix4> {
+        0.130848 0 0 0
+        0 0.130848 0 0
+        0 0 0.130848 0
+        -0.0117975 0.420627 0.102064 1
+      }
+    }
+    <VertexPool> pCubeShape2.verts {
+      <Vertex> 0 {
+        -0.338917 0.0935072 0.429184
+        <UV> { 0.375 0 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 1 {
+        0.315322 0.0935072 0.429184
+        <UV> { 0.625 0 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 2 {
+        0.315322 0.747747 0.429184
+        <UV> { 0.625 0.25 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 3 {
+        -0.338917 0.747747 0.429184
+        <UV> { 0.375 0.25 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 4 {
+        -0.338917 0.747747 0.429184
+        <UV> { 0.375 0.25 }
+        <Normal> { 0 1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 5 {
+        0.315322 0.747747 0.429184
+        <UV> { 0.625 0.25 }
+        <Normal> { 0 1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 6 {
+        0.315322 0.747747 -0.225056
+        <UV> { 0.625 0.5 }
+        <Normal> { 0 1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 7 {
+        -0.338917 0.747747 -0.225056
+        <UV> { 0.375 0.5 }
+        <Normal> { 0 1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 8 {
+        -0.338917 0.747747 -0.225056
+        <UV> { 0.375 0.5 }
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 9 {
+        0.315322 0.747747 -0.225056
+        <UV> { 0.625 0.5 }
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 10 {
+        0.315322 0.0935072 -0.225056
+        <UV> { 0.625 0.75 }
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 11 {
+        -0.338917 0.0935072 -0.225056
+        <UV> { 0.375 0.75 }
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 12 {
+        -0.338917 0.0935072 -0.225056
+        <UV> { 0.375 0.75 }
+        <Normal> { 0 -1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 13 {
+        0.315322 0.0935072 -0.225056
+        <UV> { 0.625 0.75 }
+        <Normal> { 0 -1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 14 {
+        0.315322 0.0935072 0.429184
+        <UV> { 0.625 1 }
+        <Normal> { 0 -1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 15 {
+        -0.338917 0.0935072 0.429184
+        <UV> { 0.375 1 }
+        <Normal> { 0 -1 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 16 {
+        0.315322 0.0935072 0.429184
+        <UV> { 0.625 0 }
+        <Normal> { 1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 17 {
+        0.315322 0.0935072 -0.225056
+        <UV> { 0.875 0 }
+        <Normal> { 1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 18 {
+        0.315322 0.747747 -0.225056
+        <UV> { 0.875 0.25 }
+        <Normal> { 1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 19 {
+        0.315322 0.747747 0.429184
+        <UV> { 0.625 0.25 }
+        <Normal> { 1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 20 {
+        -0.338917 0.0935072 -0.225056
+        <UV> { 0.125 0 }
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 21 {
+        -0.338917 0.0935072 0.429184
+        <UV> { 0.375 0 }
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 22 {
+        -0.338917 0.747747 0.429184
+        <UV> { 0.375 0.25 }
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 23 {
+        -0.338917 0.747747 -0.225056
+        <UV> { 0.125 0.25 }
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { phong7SG }
+      <VertexRef> { 0 1 2 3 <Ref> { pCubeShape2.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <TRef> { phong7SG }
+      <VertexRef> { 4 5 6 7 <Ref> { pCubeShape2.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <TRef> { phong7SG }
+      <VertexRef> { 8 9 10 11 <Ref> { pCubeShape2.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <TRef> { phong7SG }
+      <VertexRef> { 12 13 14 15 <Ref> { pCubeShape2.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <TRef> { phong7SG }
+      <VertexRef> { 16 17 18 19 <Ref> { pCubeShape2.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <TRef> { phong7SG }
+      <VertexRef> { 20 21 22 23 <Ref> { pCubeShape2.verts } }
+    }
+  }
+}
+<Table> {
+  <Bundle> shot {
+    <Table> "<skeleton>" {
+      <Table> pCube2 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+          <S$Anim> i { <V> { 0.130848 } }
+          <S$Anim> j { <V> { 0.130848 } }
+          <S$Anim> k { <V> { 0.130848 } }
+          <S$Anim> h {
+            <V> {
+              0 16.4224 32.9389 49.5143 66.1131 82.7002 99.2402 115.698
+              132.038 148.225 164.224 180 -164.452 -149.094 -133.899
+              -118.841 -103.89 -89.0217 -74.2074 -59.4203 -44.6332
+              -29.8188 -14.9502 0
+            }
+          }
+          <S$Anim> x { <V> { -0.0117975 } }
+          <S$Anim> y { <V> { 0.420627 } }
+          <S$Anim> z { <V> { 0.102064 } }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

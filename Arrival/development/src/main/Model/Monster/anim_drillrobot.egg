@@ -1,0 +1,35 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -a chan -o anim_drillrobot.egg ground.mb"
+}
+<Table> {
+  <Bundle> ground {
+    <Table> "<skeleton>" {
+      <Table> pCone2 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+          <S$Anim> p { <V> { -90 } }
+          <S$Anim> y { <V> { -0.60141 } }
+        }
+        <Table> polySurface1 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> r {
+              <V> {
+                -0 -1.98241 -7.69294 -16.7765 -28.8781 -43.6426 -60.715
+                -79.7403 -100.363 -122.229 -144.982 -168.268 168.268
+                144.982 122.229 100.363 79.7403 60.715 43.6426 28.8781
+                16.7765 7.69294 1.98241 -0
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}
