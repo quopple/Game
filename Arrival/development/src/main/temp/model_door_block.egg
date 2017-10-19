@@ -1,0 +1,166 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -a both -o block_door.egg block_door.mb"
+}
+<Group> block_door {
+  <Dart> { 1 }
+
+}
+  <Group> door_block {
+    <Collide> { Polyset keep descend }
+    <VertexPool> door_blockShape.verts {
+      <Vertex> 0 {
+        -2.04818 0.000523567 1
+        <Normal> { 0 0 1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 1 {
+        2.44481 0.000523567 1
+        <Normal> { 0 0 1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 2 {
+        2.44481 3.52994 1
+        <Normal> { 0 0 1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 3 {
+        -2.04818 3.52994 1
+        <Normal> { 0 0 1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 4 {
+        -2.04818 3.52994 1
+        <Normal> { 0 1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 5 {
+        2.44481 3.52994 1
+        <Normal> { 0 1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 6 {
+        2.44481 3.52994 -1
+        <Normal> { 0 1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 7 {
+        -2.04818 3.52994 -1
+        <Normal> { 0 1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 8 {
+        -2.04818 3.52994 -1
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 9 {
+        2.44481 3.52994 -1
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 10 {
+        2.44481 0.000523567 -1
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 11 {
+        -2.04818 0.000523567 -1
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 12 {
+        -2.04818 0.000523567 -1
+        <Normal> { 0 -1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 13 {
+        2.44481 0.000523567 -1
+        <Normal> { 0 -1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 14 {
+        2.44481 0.000523567 1
+        <Normal> { 0 -1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 15 {
+        -2.04818 0.000523567 1
+        <Normal> { 0 -1 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 16 {
+        2.44481 0.000523567 1
+        <Normal> { 1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 17 {
+        2.44481 0.000523567 -1
+        <Normal> { 1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 18 {
+        2.44481 3.52994 -1
+        <Normal> { 1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 19 {
+        2.44481 3.52994 1
+        <Normal> { 1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 20 {
+        -2.04818 0.000523567 -1
+        <Normal> { -1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 21 {
+        -2.04818 0.000523567 1
+        <Normal> { -1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 22 {
+        -2.04818 3.52994 1
+        <Normal> { -1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+      <Vertex> 23 {
+        -2.04818 3.52994 -1
+        <Normal> { -1 0 0 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { door_blockShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <VertexRef> { 4 5 6 7 <Ref> { door_blockShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 8 9 10 11 <Ref> { door_blockShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <VertexRef> { 12 13 14 15 <Ref> { door_blockShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <VertexRef> { 16 17 18 19 <Ref> { door_blockShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <VertexRef> { 20 21 22 23 <Ref> { door_blockShape.verts } }
+    }
+  }
+<Table> {
+  <Bundle> block_door {
+    <Table> "<skeleton>" {
+    }
+    <Table> morph {
+    }
+  }
+}
